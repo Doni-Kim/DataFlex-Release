@@ -22,11 +22,11 @@
 
 〔영어 한 줄 — 같은 DEMO 테이블(tb_cust)로 세 판이 생성한 이행 스크립트〕
 
-| Edition | Table | Script |
-|---|---|---|
-| DataFlex.Oracle | DEMOTOBE.TB_CUST | [T000003_TB_CUST.sql](samples/oracle/T000003_TB_CUST.sql) (PL/SQL) |
-| DataFlex.PG | demotobe.tb_cust | [T900007_tb_cust.sql](samples/pg/T900007_tb_cust.sql) (PL/pgSQL) |
-| DataFlex.MSSQL | demotobe.tb_cust | [T900007_tb_cust.sql](samples/mssql/T900007_tb_cust.sql) (T-SQL) |
+| Edition | Table | Script | Excel |
+|---|---|---|---|
+| DataFlex.Oracle | DEMOTOBE.TB_CUST | [T000003_TB_CUST.sql](samples/oracle/T000003_TB_CUST.sql) (PL/SQL) | [T000003_DEMOTOBE.TB_CUST.xlsx](samples/oracle/T000003_DEMOTOBE.TB_CUST.xlsx) |
+| DataFlex.PG | demotobe.tb_cust | [T900007_tb_cust.sql](samples/pg/T900007_tb_cust.sql) (PL/pgSQL) | [T900007_demotobe.tb_cust.xlsx](samples/pg/T900007_demotobe.tb_cust.xlsx) |
+| DataFlex.MSSQL | demotobe.tb_cust | [T900007_tb_cust.sql](samples/mssql/T900007_tb_cust.sql) (T-SQL) | [T900007_demotobe.tb_cust.xlsx](samples/mssql/T900007_demotobe.tb_cust.xlsx) |
 
 ## Screens
 
