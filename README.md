@@ -18,6 +18,16 @@
 | DataFlex.PG | [DataFlex.PG_소개.html](docs/DataFlex.PG_%EC%86%8C%EA%B0%9C.html) |
 | DataFlex.MSSQL | [DataFlex.MSSQL_소개.html](docs/DataFlex.MSSQL_%EC%86%8C%EA%B0%9C.html) |
 
+## Sample scripts
+
+〔영어 한 줄 — 같은 DEMO 테이블(tb_cust)로 세 판이 생성한 이행 스크립트〕
+
+| Edition | Table | Script |
+|---|---|---|
+| DataFlex.Oracle | DEMOTOBE.TB_CUST | [T000003_TB_CUST.sql](samples/oracle/T000003_TB_CUST.sql) (PL/SQL) |
+| DataFlex.PG | demotobe.tb_cust | [T900007_tb_cust.sql](samples/pg/T900007_tb_cust.sql) (PL/pgSQL) |
+| DataFlex.MSSQL | demotobe.tb_cust | [T900007_tb_cust.sql](samples/mssql/T900007_tb_cust.sql) (T-SQL) |
+
 ## Screens
 
 ### DataFlex.Oracle
@@ -189,6 +199,7 @@ DataFlex.MSSQL 은 SQL Server 데이터 이행의 **매핑 정의 · 이행 스�
 - 특징: 매핑 한 곳에서 스크립트 · 현황 · 기록이 모두 나온다
 - 클라이언트: Windows 10 이상. .NET 설치 불필요. Microsoft Edge WebView2 런타임 필요 (Windows 11 기본 포함)
 - 소개 문서: 위 [Documents](#documents) 의 HTML
+- 샘플 스크립트: 위 [Sample scripts](#sample-scripts) — 〔한국어 한 줄〕
 - 〔실행 파일 · 문의처 안내〕
 
 © 2026 DBMS Works
