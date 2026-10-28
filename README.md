@@ -16,9 +16,9 @@ DataFlex is a comprehensive data migration tool that manages mapping definitions
 
 | Edition | Introduction (Korean, HTML) |
 |---|---|
-| DataFlex.Oracle | [DataFlex.Oracle_소개.html](docs/DataFlex.Oracle_%EC%86%8C%EA%B0%9C.html) |
-| DataFlex.PG | [DataFlex.PG_소개.html](docs/DataFlex.PG_%EC%86%8C%EA%B0%9C.html) |
-| DataFlex.MSSQL | [DataFlex.MSSQL_소개.html](docs/DataFlex.MSSQL_%EC%86%8C%EA%B0%9C.html) |
+| DataFlex.Oracle | [DataFlex.Oracle_소개.html](https://doni-kim.github.io/DataFlex-Release/docs/DataFlex.Oracle_%EC%86%8C%EA%B0%9C.html) |
+| DataFlex.PG | [DataFlex.PG_소개.html](https://doni-kim.github.io/DataFlex-Release/docs/DataFlex.PG_%EC%86%8C%EA%B0%9C.html) |
+| DataFlex.MSSQL | [DataFlex.MSSQL_소개.html](https://doni-kim.github.io/DataFlex-Release/docs/DataFlex.MSSQL_%EC%86%8C%EA%B0%9C.html) |
 
 ## Sample scripts
 
