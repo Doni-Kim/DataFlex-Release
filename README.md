@@ -12,11 +12,11 @@
 
 ## Documents
 
-| Edition | Introduction (Korean, PDF) |
+| Edition | Introduction (Korean, HTML) |
 |---|---|
-| DataFlex.Oracle | [DataFlex.Oracle_소개.pdf](docs/DataFlex.Oracle_%EC%86%8C%EA%B0%9C.pdf) |
-| DataFlex.PG | [DataFlex.PG_소개.pdf](docs/DataFlex.PG_%EC%86%8C%EA%B0%9C.pdf) |
-| DataFlex.MSSQL | [DataFlex.MSSQL_소개.pdf](docs/DataFlex.MSSQL_%EC%86%8C%EA%B0%9C.pdf) |
+| DataFlex.Oracle | [DataFlex.Oracle_소개.html](docs/DataFlex.Oracle_%EC%86%8C%EA%B0%9C.html) |
+| DataFlex.PG | [DataFlex.PG_소개.html](docs/DataFlex.PG_%EC%86%8C%EA%B0%9C.html) |
+| DataFlex.MSSQL | [DataFlex.MSSQL_소개.html](docs/DataFlex.MSSQL_%EC%86%8C%EA%B0%9C.html) |
 
 ## Screens
 
@@ -188,7 +188,7 @@ DataFlex.MSSQL 은 SQL Server 데이터 이행의 **매핑 정의 · 이행 스�
 
 - 특징: 매핑 한 곳에서 스크립트 · 현황 · 기록이 모두 나온다
 - 클라이언트: Windows 10 이상. .NET 설치 불필요. Microsoft Edge WebView2 런타임 필요 (Windows 11 기본 포함)
-- 소개 문서: 위 [Documents](#documents) 의 PDF
+- 소개 문서: 위 [Documents](#documents) 의 HTML
 - 〔실행 파일 · 문의처 안내〕
 
 © 2026 DBMS Works
