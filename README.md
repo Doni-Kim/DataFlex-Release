@@ -1,6 +1,6 @@
 # DataFlex
 
-〔영어 한 줄 — 무엇을 하는 도구인지〕
+DataFlex is a comprehensive data migration tool that manages mapping definitions, migration script generation, execution, and execution results within a single repository database. (Supports Oracle, PostgreSQL, and SQL Server)
 
 | Edition | Migration | Repository DB | Generated scripts |
 |---|---|---|---|
@@ -8,7 +8,9 @@
 | DataFlex.PG | PostgreSQL → PostgreSQL | PostgreSQL 14+ (MERGE 15+) | PL/pgSQL |
 | DataFlex.MSSQL | SQL Server → SQL Server | SQL Server 2019+ · Azure SQL Managed Instance | T-SQL |
 
-> 〔실행 파일은 없고 소개 문서만 있다는 안내 — 받는 방법 · 문의처〕
+> This repository contains product documentation, UI screenshots, and sample files only; executable files are not publicly distributed.
+>
+> For product adoption and usage inquiries, please contact us via [Contact Info].
 
 ## Documents
 
@@ -20,7 +22,7 @@
 
 ## Sample scripts
 
-〔영어 한 줄 — 같은 DEMO 테이블(tb_cust)로 세 판이 생성한 이행 스크립트〕
+Examples of migration scripts and mapping specification sheets (Excel) generated for each DBMS environment (Oracle, PostgreSQL, SQL Server) based on the same DEMO table (tb_cust / Customer).
 
 | Edition | Table | Script | Excel |
 |---|---|---|---|
@@ -155,11 +157,18 @@
 
 ## Requirements
 
-〔영어 — 클라이언트 실행 환경: Windows 10+, .NET 설치 불필요, WebView2 런타임〕
+- OS: Windows 10 or later
+- Runtime: Microsoft Edge WebView2 Runtime (Included by default in Windows 11; separate .NET installation is not required.)
 
 ---
 
 ## DataFlex (한국어)
+
+DataFlex는 데이터 이행의 매핑 정의, 이행 스크립트 생성, 실행 및 결과 확인을 하나의 리포지토리 DB에서 통합 관리하는 데이터 이행 도구입니다. (Oracle, PostgreSQL, SQL Server 지원)
+
+> 본 저장소에는 제품 소개 문서, 화면 스크린샷, 샘플 데이터만 포함되어 있으며, 실행 파일은 공개하지 않습니다.
+>
+> 제품 도입 및 사용 문의는 아래 [문의처]로 연락해 주시기 바랍니다.
 
 ### DataFlex.Oracle
 
@@ -197,9 +206,9 @@ DataFlex.MSSQL 은 SQL Server 데이터 이행의 **매핑 정의 · 이행 스�
 ### 공통
 
 - 특징: 매핑 한 곳에서 스크립트 · 현황 · 기록이 모두 나온다
-- 클라이언트: Windows 10 이상. .NET 설치 불필요. Microsoft Edge WebView2 런타임 필요 (Windows 11 기본 포함)
+- OS: Windows 10 이상
+- 런타임: Microsoft Edge WebView2 Runtime (Windows 11에는 기본 포함되어 있으며, 별도의 .NET 설치는 필요하지 않습니다.)
 - 소개 문서: 위 [Documents](#documents) 의 HTML
-- 샘플 스크립트: 위 [Sample scripts](#sample-scripts) — 〔한국어 한 줄〕
-- 〔실행 파일 · 문의처 안내〕
+- 샘플 스크립트: 위 [Sample scripts](#sample-scripts) — 동일한 DEMO 테이블(고객, tb_cust)을 기준으로 각 DBMS(Oracle, PostgreSQL, SQL Server) 환경에서 생성한 이행 스크립트 및 매핑 정의서(Excel) 예시입니다.
 
 © 2026 DBMS Works
