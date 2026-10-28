@@ -10,7 +10,7 @@ DataFlex is a comprehensive data migration tool that manages mapping definitions
 
 > This repository contains product documentation, UI screenshots, and sample files only; executable files are not publicly distributed.
 >
-> For product adoption and usage inquiries, please contact us via [Contact Info].
+> For product adoption and usage inquiries, please contact us via doniikim@gmail.com.
 
 ## Documents
 
@@ -168,7 +168,9 @@ DataFlex는 데이터 이행의 매핑 정의, 이행 스크립트 생성, 실�
 
 > 본 저장소에는 제품 소개 문서, 화면 스크린샷, 샘플 데이터만 포함되어 있으며, 실행 파일은 공개하지 않습니다.
 >
-> 제품 도입 및 사용 문의는 아래 [문의처]로 연락해 주시기 바랍니다.
+> 제품 도입 및 사용 문의는 아래 문의처로 연락해 주시기 바랍니다.
+>
+> 문의처: doniikim@gmail.com
 
 ### DataFlex.Oracle
 
