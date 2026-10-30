@@ -5,7 +5,7 @@ DataFlex is a comprehensive data migration tool that manages mapping definitions
 | Edition | Migration | Repository DB | Generated scripts |
 |---|---|---|---|
 | DataFlex.Oracle | Oracle → Oracle | Oracle 12.2+ · OCI ADB | PL/SQL |
-| DataFlex.PG | PostgreSQL → PostgreSQL | PostgreSQL 14+ (MERGE 15+) · Azure Database for PostgreSQL | PL/pgSQL |
+| DataFlex.PG | PostgreSQL → PostgreSQL | PostgreSQL 15+ · Azure Database for PostgreSQL | PL/pgSQL |
 | DataFlex.MSSQL | SQL Server → SQL Server | SQL Server 2019+ · Azure SQL Database · Azure SQL Managed Instance | T-SQL |
 
 > This repository contains product documentation, UI screenshots, and sample files only; executable files are not publicly distributed.
@@ -192,7 +192,7 @@ DataFlex.PG 는 PostgreSQL 데이터 이행의 **매핑 정의 · 이행 스크�
 | 대상 | PostgreSQL → PostgreSQL 데이터 이행 (가공 · 변환 포함) |
 | 형태 | Windows 클라이언트 + PostgreSQL 리포지토리 DB (dataflex 롤 · 스키마 dataflex · dataflex_dup · dataflex_back) |
 | 결과물 | 매핑 정의, PL/pgSQL 이행 스크립트, 실행 순서, 실행 기록 |
-| 리포지토리 DB | PostgreSQL 14 이상(MERGE 적재는 15 이상). 설치 마법사가 dataflex 롤과 스키마 3개(dataflex · dataflex_dup · dataflex_back), 확장 dblink · postgres_fdw 를 만듭니다 |
+| 리포지토리 DB | PostgreSQL 15 이상. 설치 마법사가 dataflex 롤과 스키마 3개(dataflex · dataflex_dup · dataflex_back), 확장 dblink · postgres_fdw 를 만듭니다 |
 
 ### DataFlex.MSSQL
 

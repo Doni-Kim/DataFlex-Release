@@ -317,7 +317,7 @@ strong { color: #1d2a5e; }
 </tr>
 <tr>
 <td>점검</td>
-<td>PostgreSQL 버전(14 이상) · 인코딩 · system_identifier · 이미 있는 롤 · 데이터베이스 유무를 확인합니다. 그 데이터베이스에 리포지토리가 이미 있으면 설치하지 않습니다.</td>
+<td>PostgreSQL 버전(15 이상) · 인코딩 · system_identifier · 이미 있는 롤 · 데이터베이스 유무를 확인합니다. 그 데이터베이스에 리포지토리가 이미 있으면 설치하지 않습니다.</td>
 </tr>
 <tr>
 <td>설정</td>
@@ -686,7 +686,7 @@ strong { color: #1d2a5e; }
 </tr>
 <tr>
 <td>리포지토리 DB</td>
-<td>PostgreSQL 14 이상(MERGE 적재는 15 이상). 설치 마법사가 dataflex 롤과 스키마 3개(dataflex · dataflex_dup · dataflex_back), 확장 dblink · postgres_fdw 를 만듭니다</td>
+<td>PostgreSQL 15 이상. 설치 마법사가 dataflex 롤과 스키마 3개(dataflex · dataflex_dup · dataflex_back), 확장 dblink · postgres_fdw 를 만듭니다</td>
 </tr>
 <tr>
 <td>확인한 DB</td>
@@ -719,7 +719,7 @@ strong { color: #1d2a5e; }
 <ul>
 <li>원본 · 대상 모두 <strong>PostgreSQL</strong> 을 대상으로 합니다.</li>
 <li>클라이언트는 Windows 전용입니다.</li>
-<li>설치 마법사는 PostgreSQL 14 이상을 대상으로 합니다. MERGE 적재는 PostgreSQL 15 이상에서 돌고, MERGE 의 새로 넣은 · 바뀐 건수는 17 이상에서만 따로 기록합니다.</li>
+<li>설치 마법사는 PostgreSQL 15 이상을 대상으로 합니다. MERGE 의 새로 넣은 · 바뀐 건수는 17 이상에서만 따로 기록합니다.</li>
 <li>건수 대사(Rows Compare)의 예상 건수는 GUI 매핑만 셉니다. PL/pgSQL 로 직접 쓴 SQL 방식 매핑은 읽는 문장을 알 수 없어 적재 건수만 보입니다.</li>
 </ul>
 
