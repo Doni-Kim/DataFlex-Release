@@ -5,7 +5,7 @@ DataFlex is a comprehensive data migration tool that manages mapping definitions
 | Edition | Migration | Repository DB | Generated scripts |
 |---|---|---|---|
 | DataFlex.Oracle | Oracle → Oracle | Oracle 12.2+ · OCI ADB | PL/SQL |
-| DataFlex.PG | PostgreSQL → PostgreSQL | PostgreSQL 14+ (MERGE 15+) · Azure Database for PostgreSQL · AlloyDB Omni | PL/pgSQL |
+| DataFlex.PG | PostgreSQL → PostgreSQL | PostgreSQL 14+ (MERGE 15+) · Azure Database for PostgreSQL | PL/pgSQL |
 | DataFlex.MSSQL | SQL Server → SQL Server | SQL Server 2019+ · Azure SQL Database · Azure SQL Managed Instance | T-SQL |
 
 > This repository contains product documentation, UI screenshots, and sample files only; executable files are not publicly distributed.
