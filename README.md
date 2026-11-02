@@ -55,9 +55,9 @@ Examples of migration scripts and mapping specification sheets (Excel) generated
 
 ![DataFlex.Oracle — Column Map](images/oracle/ColumnMap.jpg)
 
-**Ordering Scripts**
+**Run Order**
 
-![DataFlex.Oracle — Ordering Scripts](images/oracle/OrderingScripts.jpg)
+![DataFlex.Oracle — Run Order](images/oracle/OrderingScripts.jpg)
 
 **Script Launcher**
 
@@ -96,9 +96,9 @@ Examples of migration scripts and mapping specification sheets (Excel) generated
 
 ![DataFlex.PG — Column Map](images/pg/ColumnMap.png)
 
-**Ordering Scripts**
+**Run Order**
 
-![DataFlex.PG — Ordering Scripts](images/pg/OrderingScripts.png)
+![DataFlex.PG — Run Order](images/pg/OrderingScripts.png)
 
 **Script Launcher**
 
@@ -137,9 +137,9 @@ Examples of migration scripts and mapping specification sheets (Excel) generated
 
 ![DataFlex.MSSQL — Column Map](images/mssql/ColumnMap.png)
 
-**Ordering Scripts**
+**Run Order**
 
-![DataFlex.MSSQL — Ordering Scripts](images/mssql/OrderingScripts.png)
+![DataFlex.MSSQL — Run Order](images/mssql/OrderingScripts.png)
 
 **Script Launcher**
 
